@@ -1,0 +1,89 @@
+<!doctype html>
+  <html>
+    <head>
+        <title>In Vino Veritas - Connaître, Acheter et Déguster les bons vins</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+          body.background {
+          background-image: url("images/vin-rouge-blanc-rose-difference.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          } 
+          body {
+          color:white;
+          font-family:Arial, Helvetica, sans-serif;
+          font-size:16px;
+          } 
+          .topnav {
+          overflow: hidden;
+          background-color: #8b0000;
+           }
+          .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+          }
+          .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+          }
+          .topnav a.active {
+          color: white;
+          }
+
+          
+        </style>   
+    </head>
+    <body class="background">
+      <!--Navigation bar-->
+      <div class="topnav">
+        <a href="index.html">Blog</a>
+        <a href="e-shop.html">E-Shop</a></li>
+      </div>
+      <!--opening an account-->
+      <div>
+        <form action="mail.php" method="POST">
+          <p>Votre nom</p> <input type="text" name="name">
+          <p>Votre mot de passe</p> <input type="text" name="password">
+          <p>Votre email</p> <input type="text" name="email">
+          <br />
+          <input type="submit" value="Send"><input type="reset" value="Clear">
+          </form>
+      </div><br>
+      <br>
+      <!--Choosing a wine categorie before purchasing-->
+      <div>
+        <h2><u>Choisissez une catégorie de vin</u></h2>
+        <table border="3" class="imgcontent">
+          <tr>
+            <td><a href="bordeaux" target="_blank"><img src="images/bordeaux.jpg" alt="bordeaux bottle"></a></td>
+            <td><a href="bourgogne" target="_blank"><img src="images/bourgogne.jpg" alt="bourgogne bottle"></a></td>
+            <td><a href="champagne" target="_blank"><img src="images/champagne.jpg" alt="champagne bottle"></a></td>
+            <td><a href="alsace" target="_blank"><img src="images/alsace.jpg" alt="alsace bottle"></a></td>
+          </tr>
+          <tr>
+              <td><a href="loire" target="_blank"><img src="images/loire.jpg" alt="loire bottle"></a></td>
+              <td><a href="rhone" target="_blank"><img src="images/rhone.jpg" alt="rhone bottle"></td>
+              <td><a href="jura & savoie" target="_blank"><img src="images/savoie.jpg" alt="savoie bottle"></td>
+              <td><a href="mediterranée" target="_blank"><img src="images/mediterranee.jpg" alt="south of france landscape"></td>
+          </tr>
+          <tr>
+              <td><a href="sud-ouest" target="_blank"><img src="images/sudouest.jpg" alt="sud-ouest bottle"></a></td>
+              <td><a href="italie" target="_blank"><img src="images/italy.jpg" alt="italian flag"></a></td>
+              <td><a href="espagne" target="_blank"><img src="images/spain.jpg" alt="spanish flag"></a></td>
+              <td><a href="portugal" target="_blank"><img src="images/portugal.jpg" alt="portugal flag"></a></td>
+          </tr>
+          <tr>
+              <td><a href="allemagne" target="_blank"><img src="images/germany.jpg" alt="german flag"></a></td>
+              <td><a href="autrich" target="_blank"><img src="images/austria.jpg" alt="austrian flag"></a></td>
+              <td><a href="hongrie" target="_blank"><img src="images/hungary.jpg" alt="hungarian flag"></a></td>
+              <td><a href="nouveau monde" target="_blank"><img src="images/america.jpg" alt="north&south america"></a></td>
+          </tr>
+        </table>
+      </div>
+    </body>
+  </html>

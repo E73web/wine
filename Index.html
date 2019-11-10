@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>In Vino Veritas - Connaître, Acheter et Déguster les bons vins</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body.background {
+      background-image: url("images/vin-rouge-blanc-rose-difference.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      }
+      body{
+        color:white;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:16px;
+      }
+      .topnav {
+      overflow: hidden;
+      background-color: #8b0000;
+       }
+      .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      }
+      .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+      }
+      .topnav a.active {
+      color: white;
+      }
+    </style>
+  </head>
+    <body class="background">
+    
+  <!--Navigation bar-->
+      <div class="topnav">
+        <a href="index.html">Blog</a>
+        <a href="e-shop.html">E-Shop</a></li>
+      </div>
+
+      <!--Poll about wine tasting-->
+      <div id="poll" style="background-color: grey; color:white; padding:20px;">
+        <form action="/Poll.php" method="POST">
+          <label for="tasting">Pour quel catégorie de vin participeriez vous à une dégustation ?</label>
+            <select id="tasting" name="tasting">
+              <option value="Alsace">Alsace</option>
+              <option value="Bordeaux">Bordeaux</option>
+              <option value="Bourgogne">Bourgogne</option>
+              <option value="Vins de Californie">Vins de Californie</option>
+              <option value="Vins d'amérique du sud">Vins d'Amérique du Sud</option>
+            </select>
+            <input type="submit" value="send">
+        </form>
+      </div>
+      <br>
+      <!--going to a learning field-->
+      <div>
+        <ul>
+          <il><a href="#knowing">Connaître le vin</a></il><br>
+          <il><a href="#tasting">Déguster le vin</a></il><br>
+          <il><a href="#buying">Acheter le vin</a></il><br>
+        </ul>
+      </div>
+      <br>
+  
+    
+    <!--Blog--> 
+      <div>
+        <h1 id="knowing">CONNAITRE LE VIN</h1>  
+        <article >
+          <h2>Durée moyenne de conservation de quelques vins</h2>
+          <h3><em>Le 26/10/2019</em></h3>
+          <p>L'évolution des vins en bouteille varie considérablement en fonction de leur style, des appellations
+          des producteurs et des millésimes. Le tableau suivant indique une <strong>moyenne de temps de garde</strong> pour les principales
+          appellations françaises et étrangères. La maturation au cours de laquelle le vin acquiert ses meilleures
+          qualités, gustatives est distinguée de son apogée, période plus ou moins longue (de quelques années
+          à plusieurs), pendant laquelle il garde ses qualités, avant de commencer à décliner lentement. Pour les
+          millésimes des Grands Crus français et étrangers, le tableau ci-dessous apporte des indications</p>
+          <br>
+          <table border="3">
+            <tr>
+              <th><strong>APPELLATION</strong></th>
+              <th><strong>MATURATION</strong></th>
+              <th><strong>APOGEE</strong></th>
+            </tr>
+            <tr>
+              <th colspan="3" bgcolor="darkred"><strong>BORDELAIS</strong></th>
+            </tr>
+            <tr>
+              <td bgcolor="darksalmon"><strong>VINS BLANCS SECS</strong><br>Entre-Deux-Mers</td>
+              <td bgcolor="silver">1 à 2 ans</td>
+              <td bgcolor="silver">3 ans</td>
+            </tr>
+            <tr>
+              <td bgcolor="darksalmon">Graves</td>
+              <td bgcolor="silver">3 à 6 ans</td>
+              <td bgcolor="silver">10 ans</td>
+            </tr>
+            <tr>
+              <td bgcolor="darksalmon"><strong>VINS BLANC LIQUOREUX</strong><br>Sainte-Croix-du-Mont, Loupiac</td>
+              <td bgcolor="silver">6 à 15 ans</td>
+              <td bgcolor="silver">20 ans</td>
+            </tr>
+            <tr>
+              <td bgcolor="darksalmon">Sauternes, Barsac</td>
+              <td bgcolor="silver">8 à 20 ans</td>
+              <td bgcolor="silver">plusieurs décennies</td>
+            </tr>
+            <tr>
+              <td bgcolor="darksalmon"><strong>VINS ROUGES</strong><br>Bordeaux, Bordeaux Supérieurs</td>
+              <td bgcolor="silver">2 à 5 ans</td>
+              <td bgcolor="silver">6 à 8 ans</td>
+            </tr>
+            <tr>
+              <td bgcolor="darksalmon">Médoc</td>
+              <td bgcolor="silver">4 à 10 ans</td>
+              <td bgcolor="silver">15 ans</td>
+            </tr>
+            <tr>
+              <td bgcolor="darksalmon">Médoc</td>
+              <td bgcolor="silver">5 à 15 ans</td>
+              <td bgcolor="silver">20 ans</td>
+            </tr>
+            <tr>
+              <td bgcolor="darksalmon">Saint-Julien, Saint-Estèphe</td>
+              <td bgcolor="silver">8 à 20 ans</td>
+              <td bgcolor="silver">Plusieurs décennies</td>
+            </tr>
+            <tr>
+              <td bgcolor="darksalmon">Pauillac, Margaux</td>
+              <td bgcolor="silver">8 à 30 ans</td>
+              <td bgcolor="silver">Plusieurs décennies</td>
+            </tr>
+            <tr>
+              <td bgcolor="darksalmon">Graves rouges</td>
+              <td bgcolor="silver">5 à 15 ans</td>
+              <td bgcolor="silver">Plusieurs décennies</td>
+            </tr>
+            <tr>
+              <td bgcolor="darksalmon">Saint-Emilion</td>
+              <td bgcolor="silver">7 à 15 ans</td>
+              <td bgcolor="silver">Plusieurs décennies</td>
+            </tr>
+            <tr>
+              <td bgcolor="darksalmon">Pomerol</td>
+              <td bgcolor="silver">6 à 15 ans</td>
+              <td bgcolor="silver">Plusieurs décennies</td>
+            </tr>
+            <tr>
+              <td colspan="3" bgcolor="darkred"><strong>BOURGOGNE</strong></td>
+            </tr>
+            <tr>
+              <td bgcolor="darksalmon"><strong>VINS BLANCS</strong><br>Vins blancs secs, légers, fruités<br>(Chablis, Mâcon blanc, SAint-Véran, Rully Blanc, Montagny, etc.)</td>
+              <td bgcolor="silver">1 à 3 ans</td>
+              <td bgcolor="silver">à boire jeune</td>
+            </tr>  
+          </table>
+        </article>
+        <br>
+        
+        <article>
+            <h2>Equilibre des vins blancs moelleux et liquoreux</h2>
+            <h3><em>Le 27/10/2019</em></h3>
+              <p>L'équilibre des <strong>vins blancs moelleux</strong> s'analyse suivant 3 axes représentant les montants<br>
+              d'acidité, d'alcool et de sucres résiduels. Le coeur du diagramme symbolise l'équilibre des
+              vins. il met en évidence deux règles importantes : plus un vin est riche en sucres, plus son
+              alcoolique doit être élevé; plus ses deux composantes sont élevées, plus le niveau d'acidité
+              doit l'êre de façon à ramener l'équilible au centre. La défiance d'un des composants d'un des
+              composants entraîne aussitôt un déséquilibre. Par exemple, la seule dominante sucres donnera
+              donnera un vin sirupeux; associé à un niveau élévé d'alcool, elle rendra le vin lourd, etc.
+              Au coeurs même de l'équilibre, il existe des nuances de texture - tendre, suave, onctueux -
+              qui traduisent la richesse des vins et définissent des styles différents.</p>
+              <br><br>
+              <img src="images/20191027_204011.jpg" alt="graph describing white wines equilibrium" >      
+        </article><br>
+        <br>
+        </div>
+        <div>
+        <h1 id="tasting">DEGUSTER LE VIN</h1>
+          <article>
+           <h2>Les 3 étapes de la degustation du vin</h2>
+           <h3><em>Le 06/11/2019</em></h3>
+             <p><strong>L'ATTAQUE:</strong> Elle correspond à la toute première impression que le vin fait naître sur la langue
+              lorsque le dégustateur prend une petite gorgée de vin. D'emblée, il perçoit la température,
+              la présence éventuelle du gaz, mais il se forme aussi une idée de la personnalité gustative du vin.
+              Une attaque de qualité dominante être franche, nette, précise mais peu aussi s'avérer ample,
+              aromatique, fruitée. Si ce premier contact n'enclenche aucune sensation chez le dégustateur, l'attaque
+              est dite faible, fuyante, aqueuse, ou, au contraire, agressive quand elle provoque une réaction
+              gustative forte et déplaisante.<br>
+              <br>
+              <strong>LE MILIEU DE BOUCHE:</strong> Cette étape correspond à l'épanouissement du vin dans la bouche. Pour ce faire,
+              le dégustateur fait tourner une gorgée de vin dans la bouche pendant quelques secondes, donnant
+              l'impression de "mâcher", puis inspire un filet d'air par la bouche afin d'accélérer l'acheminement
+              des molécules aromatiques vers le bulbe olfactif via la voie rétronasale. A ce stade, il appréhende toutes
+              les saveurs et odeurs, la texture et la structure inhérentes au vin. Or, ces sensations olfactives,
+              tactiles et thermiques, qui s'aditionnent et se combinent entre elles, livrent une impression globale.
+              La tâche du dégustateur est alors d'essayer de les différencier successivement afin de les analyser et
+              de juger de l'équilibre du vin (voir plus loin).<br>
+              <br>
+              <strong>LA FINALE:</strong> Cette dernière étape correspond à la persistance aromatique, ou "longueur en bouche", du vin
+              dans la bouche, une fois celui-ci est avalé (ou recraché). Elle donne une idée de la "grandeur" du vin.
+              Plus un vin est long, plus grande sera sa qualité. Cette persistance se mesure en secondes ou caudalies
+              (du latin <em>cauda</em>, "queue"), dans le langage du dégustateur. Elle peut aussi être décrite comme
+              longue, épanouie, et, dans le meilleur des cas on parlera de queue de paon. A contrario, elle est dite,
+              inexistante, fugace, brève ou courte. La difficulté consiste à ne pas confondre la persistance
+              aromatique avec les sensations engendrées par l'acidité, l'alcool, ou les tanins - soit une sensation de
+              brûlure, de chaleur ou d'astringeance - , qui tendent souvent à la masquer. Le plus simple est de se 
+              concentrer sur l'arôme dominant et, une fois le vin avalé (ou recraché), de le suivre jusqu'à disparition.
+              Enfin il ne saurait y avoir de dégustation sans conclusion! Une rapide synthèse s'impose concernant non
+              seulement la qualité du vin à cet instant T de la dégustation mais aussi son éventuel devenir. Et puis,
+              bien sur, c'est le moment pour le dégustateur d'exprimer son propre goût!</p>
+         </article>
+        </div >
+        <div>
+          <h1 id="buying">ACHETER LE VIN</h1>
+          <br
+        </div>
+      </div>
+    </body>    
+</html>
